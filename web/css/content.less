@@ -1,0 +1,77 @@
+content {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  padding-bottom: 30px;
+  color: @content;
+
+  .life {
+    font-family: @font-content;
+    background-color: #edfaee;
+    padding-bottom: 15px;
+  }
+
+  .auditions {
+    font-family: @font-content;
+    background-color: #ebf4fb;
+    padding-bottom: 15px;
+  }
+
+  .work {
+    font-family: @font-content;
+    background-color: #d8d1c9;
+  }
+
+  h1 {
+    color: #5a3d1f;
+    font-stretch: ultra-condensed;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: lighter;
+  }
+}
+
+@media(min-width: 768px) {
+  content {
+    h1 {
+      text-align: center;
+      font-size: 40px;
+    }
+    .thumbnail {
+      transition: none;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    .container {
+     // width: auto;
+    }
+  }
+
+}
+
+
+@media(min-width: 1600px) {
+    .container {
+      width: 1600px;
+    }
+  .row {
+  }
+}
+
+.col-sm-3 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  padding: 15px 10px 1px 10px;
+  margin-bottom: 20px;
+}
+

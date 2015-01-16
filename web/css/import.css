@@ -1,0 +1,162 @@
+header {
+  background-image: url('img/startseite_hintergrund.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  text-align: center;
+  padding-bottom: 40px;
+  color: #ffffff;
+}
+header .intro {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  font-size: 40px;
+  font-weight: 800;
+}
+header .intro-describe {
+  font-size: 40px;
+  font-stretch: ultra-condensed;
+  font-kerning: normal;
+  padding-bottom: 40px;
+}
+header .btn-default {
+  border-radius: 0;
+  background-color: transparent;
+  color: #ffffff;
+}
+header .content {
+  white-space: nowrap;
+  display: inline-block;
+}
+header .intro-button {
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid;
+}
+@media (min-width: 768px) {
+  header .intro {
+    padding-top: 80px;
+    font-size: 110px;
+    font-weight: 900;
+  }
+  header .intro-describe {
+    padding-top: 0px;
+    font-size: 40px;
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  header .intro {
+    padding-top: 200px;
+    font-size: 150px;
+    font-weight: 900;
+  }
+  header .intro-describe {
+    padding-top: 50px;
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  header .content {
+    white-space: normal;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+content {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  padding-bottom: 30px;
+  color: #000000;
+}
+content .life {
+  font-family: "Myriad Pro", sans-serif;
+  background-color: #edfaee;
+  padding-bottom: 15px;
+}
+content .auditions {
+  font-family: "Myriad Pro", sans-serif;
+  background-color: #ebf4fb;
+  padding-bottom: 15px;
+}
+content .work {
+  font-family: "Myriad Pro", sans-serif;
+  background-color: #d8d1c9;
+}
+content h1 {
+  color: #5a3d1f;
+  font-stretch: ultra-condensed;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+content h2 {
+  font-size: 36px;
+  font-weight: lighter;
+}
+@media (min-width: 768px) {
+  content h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  content .thumbnail {
+    transition: none;
+  }
+  content h2 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    width: 1600px;
+  }
+}
+.col-sm-3 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.bg-white {
+  background-color: #ffffff;
+  padding: 15px 10px 1px 10px;
+  margin-bottom: 20px;
+}
+.collagen {
+  background-size: cover;
+  background: #724343;
+}
+.collagen .carousel-caption {
+  position: fixed;
+  font-size: 30px;
+}
+.radierungen {
+  background-size: cover;
+  background: #404040;
+}
+.radierungen .carousel-caption {
+  position: fixed;
+  font-size: 30px;
+}
+body {
+  background-color: #c5c1bb;
+  font-family: "Montserrat", "Helvetica", sans-serif;
+}
+.navbar-inverse {
+  opacity: 0.2;
+}
+blockquote {
+  border-left: 1px solid #000;
+  margin-left: 30px;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.carousel-control {
+  padding-bottom: 100px;
+}
