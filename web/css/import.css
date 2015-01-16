@@ -1,6 +1,7 @@
 header {
   background-image: url('img/startseite_hintergrund.png');
   background-size: cover;
+  height: width / 144;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -100,31 +101,54 @@ content h2 {
   font-size: 36px;
   font-weight: lighter;
 }
+content .thumbnail {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0;
+}
+content .col-sm-3 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media (max-width: 768px) {
+  content h1 {
+    padding-left: 40px;
+  }
+}
 @media (min-width: 768px) {
   content h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
   }
   content .thumbnail {
     transition: none;
   }
   content h2 {
-    font-size: 20px;
+    font-size: 17px;
+  }
+  content p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1000px) {
+  content h1 {
+    font-size: 40px;
+  }
+  content h2 {
+    font-size: 28px;
+  }
+  content p {
+    font-size: 18px;
   }
 }
 @media (min-width: 1600px) {
-  .container {
+  content .container {
     width: 1600px;
+    content-alignment: center;
   }
-}
-.col-sm-3 {
-  margin-left: 15px;
-  margin-right: 15px;
-}
-.bg-white {
-  background-color: #ffffff;
-  padding: 15px 10px 1px 10px;
-  margin-bottom: 20px;
+  content h1 {
+    font-size: 50px;
+  }
 }
 .collagen {
   background-size: cover;
